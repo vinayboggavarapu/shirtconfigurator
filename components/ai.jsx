@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useContext } from "react";
-import { state } from "../state";
+import { state } from "../pages/state";
 
 const Ai = () => {
   const [prompt, setprompt] = useState("");

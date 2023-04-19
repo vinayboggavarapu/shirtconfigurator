@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Configurator from "./components/Configurator";
-import Land from "./components/Land";
+import Configurator from "../components/Configurator";
+import Land from "../components/Land";
 import { useState } from "react";
 import { useContext } from "react";
 import { state } from "./state";

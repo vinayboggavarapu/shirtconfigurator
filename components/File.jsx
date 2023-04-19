@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useContext } from "react";
-import { state } from "../state";
+import { state } from "../pages/state";
 
 const File = () => {
   const { fileName, setfileName, setfulltexture, setfile } = useContext(state);

@@ -1,7 +1,7 @@
 import React from "react";
 import { useContext } from "react";
-import { state } from "../state";
-import styles from "../../styles/font.module.css";
+import { state } from "../pages/state";
+import styles from "../styles/font.module.css";
 import Image from "next/image";
 import Model from "./Shirt";
 import { Canvas } from "@react-three/fiber";

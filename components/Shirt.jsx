@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Decal, useGLTF, useTexture } from "@react-three/drei";
 import { useContext } from "react";
-import { state } from "../state";
+import { state } from "../pages/state";
 import { useFrame } from "@react-three/fiber";
 import { easing } from "maath";
 

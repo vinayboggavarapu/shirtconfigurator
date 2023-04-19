@@ -28,14 +28,14 @@
     "pages/download.js",
     "pages/_document.jsx",
     "pages/_app.jsx",
-    "pages/components/Shirt.tsx",
-    "pages/components/Land.tsx",
-    "pages/components/File.jsx",
-    "pages/components/Configurator.jsx",
-    "pages/components/ColorPalette.tsx",
-    "pages/components/camera.jsx",
-    "pages/components/backdrop.jsx",
-    "pages/components/ai.tsx"
+    "components/Shirt.tsx",
+    "components/Land.tsx",
+    "components/File.jsx",
+    "components/Configurator.jsx",
+    "components/ColorPalette.tsx",
+    "components/camera.jsx",
+    "components/backdrop.jsx",
+    "components/ai.tsx"
   ],
   "exclude": ["node_modules"]
 }

@@ -9,14 +9,14 @@ import {
   AccumulativeShadows,
 } from "@react-three/drei";
 import Model from "./Shirt";
-import { state } from "../state";
+import { state } from "../pages/state";
 import { useContext } from "react";
 import ColorPalette from "./ColorPalette";
 import File from "./File";
 import Image from "next/image";
 import AI from "./ai";
-import styles from "../../styles/font.module.css";
-import style from "../../styles/glass.module.css";
+import styles from "../styles/font.module.css";
+import style from "../styles/glass.module.css";
 const Configurator = () => {
   const [front, setfront] = useState(true);
   const [back, setback] = useState(false);

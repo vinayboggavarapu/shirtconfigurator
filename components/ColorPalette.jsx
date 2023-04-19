@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { SketchPicker } from "react-color";
-import styles from "../../styles/colorpicker.module.css";
+import styles from "../styles/colorpicker.module.css";
 import { useContext } from "react";
-import { state } from "../state";
+import { state } from "../pages/state";
 
 const ColorPalette = () => {
   const { color, setcolor } = useContext(state);
