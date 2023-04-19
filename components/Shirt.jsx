@@ -6,8 +6,8 @@ import { useFrame } from "@react-three/fiber";
 import { easing } from "maath";
 
 export default function Model(props) {
-  useGLTF.preload("../pages/shirt_baked_collapsed.glb");
-  const { nodes, materials } = useGLTF("../pages/shirt_baked_collapsed.glb");
+  useGLTF.preload("../public/shirt_baked_collapsed.glb");
+  const { nodes, materials } = useGLTF("../public/shirt_baked_collapsed.glb");
   const { logoColor, file, color, fulltexture } = useContext(state);
   let shirtlogo;
   const [texture, setistexture] = useState(false);
