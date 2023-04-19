@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&family=Kufam&family=Noto+Sans+Display&family=Satisfy&family=Tilt+Prism&family=Train+One&display=swap");
+.kufam {
+  font-family: var(--kufam);
+}
+.trainOne {
+  font-family: var(--trainOne);
+}
+
+.prism {
+  font-family: "Tilt Prism", cursive;
+}
+
+.alatsi {
+  font-family: "Alatsi", sans-serif;
+}
+.noto_sans {
+  font-family: "Noto Sans Display", sans-serif;
+}
+.satisfy {
+  font-family: "Satisfy", cursive;
+}

@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/state.jsx",
+    "server/index.js",
+    "pages/index.tsx",
+    "pages/download.js",
+    "pages/_document.jsx",
+    "pages/_app.jsx",
+    "pages/components/Shirt.tsx",
+    "pages/components/Land.tsx",
+    "pages/components/File.jsx",
+    "pages/components/Configurator.jsx",
+    "pages/components/ColorPalette.tsx",
+    "pages/components/camera.jsx",
+    "pages/components/backdrop.jsx",
+    "pages/components/ai.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
